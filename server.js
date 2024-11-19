@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Подключение к MongoDB (замените <username>, <password> и <dbname> на ваши данные)
-mongoose.connect('mongodb+srv://baymuratovaalina:3TIcSsm2rRzWHddS@testprojectdatabase.upbpd.mongodb.net/?retryWrites=true&w=majority&appName=TestProjectDatabase', {
+mongoose.connect('mongodb+srv://baymuratovaalina:3TIcSsm2rRzWHddS@testprojectdatabase.upbpd.mongodb.net/?retryWrites=true&w=majority&appName=TestProjectDatabase&tlsInsecure=true', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
