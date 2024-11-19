@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Данные пользователей</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "block">
+    <h1>Форма ввода пользователей</h1>
+    <div class = "block1">
+    <h2>Веб-проект Баймуратовой Алины</h2>
+    <form id="userForm">
+        <input type="text" name="name" placeholder="Имя" required><br>
+        <input type="email" name="email" placeholder="Email" required><br>
+        <button type="submit">Отправить</button>
+    </form>
+
+    <h2>Список пользователей</h2>
+    <button id="loadUsers">Загрузить пользователей</button>
+    <ul id="userList"></ul>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
